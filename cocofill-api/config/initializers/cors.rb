@@ -9,7 +9,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "https://cocofill-two.vercel.app", "http://localhost:3001"
+    origins "https://cocofill-next.vercel.app", "http://localhost:3001"
     # ポート番号の違うNext.js側のアクセス(3000)を許可する
 
     resource "*",
